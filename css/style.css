@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: Glacial;
+    src: url('../fonts/GlacialIndifference-Regular.otf'), url('../fonts/GlacialIndifference-Bold.otf'), url('../fonts/GlacialIndifference-Italic.otf');
+}
+body{
+    background-color: #525659;
+    font-family: Glacial;
+}
+h2{
+    color: #47167d;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    letter-spacing: 5px;
+    border-bottom: 2px solid #777777;
+    padding-bottom: .4rem;
+    margin-bottom: .4rem;
+}
+.wave-bg{
+    background: url('../wave-header.svg') top left no-repeat, url('../wave-footer.svg') bottom right no-repeat;
+    background-size: auto, 10rem;
+    background-color: #efefef;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 2rem;
+    padding-right: 1rem;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.content-cv{
+    display: flex;
+    width: 100%;
+}
+.colum-1{
+    width: 40%;
+}
+.colum-2{
+    width: 60%;
+    padding-left: 5rem;
+    position: relative;
+    top: -10rem;
+}
+.colum-3{
+    position: relative;
+    top: -7rem;
+}
+.title{
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: .8rem 0;
+    padding-bottom: 17rem;
+}
+.title h1{
+    font-weight: 700;
+    font-size: 55px;
+    letter-spacing: 10px;
+}
+.title span{
+    display: block;
+    border-bottom: 2px solid #ffffff;
+    padding-top: 1.5rem;
+    font-size: 1.2rem;
+    letter-spacing: 5px;
+}
+.image-cv{
+    padding-top: 5rem;
+}
+.image-cv img{
+    border-radius: 50%;
+    width: 15rem;
+}
+.content-info{
+    margin-bottom: 1rem;
+}
+.list{
+    color: #765996;
+    list-style: none;
+}
+.list li{
+    padding: .3rem 0;
+}
+.list span{
+    font-weight: 700;
+    color: #775a97;
+}
+.list li ul{
+    list-style: none;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    font-size: .8rem;
+    letter-spacing: 1px;
+}
+.list li ul li{
+    padding: .1rem 0;
+}
+.education-list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+.education-list > li:not(.first-item, .second-item){
+    width: 50%;
+}
+.skills-list{
+    list-style: initial;
+    padding-left: 1.1rem;
+}
+.skills-list li{
+    padding: 0;
+}
+.first-item{
+    width: 46%;
+}
+.second-item{
+    width: 54%;
+}
